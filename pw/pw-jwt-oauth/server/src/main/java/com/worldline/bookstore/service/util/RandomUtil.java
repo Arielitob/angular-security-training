@@ -2,6 +2,8 @@ package com.worldline.bookstore.service.util;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
+import java.security.SecureRandom;
+
 /**
  * Utility class for generating random Strings.
  */
@@ -18,7 +20,7 @@ public final class RandomUtil {
      * @return the generated password
      */
     public static String generatePassword() {
-        return RandomStringUtils.randomAlphanumeric(DEF_COUNT);
+        return generateRandomAlphanumericString();
     }
 
     /**
