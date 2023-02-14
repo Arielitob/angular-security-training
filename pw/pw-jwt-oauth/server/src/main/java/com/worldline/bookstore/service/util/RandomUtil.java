@@ -15,6 +15,7 @@ public final class RandomUtil {
 
     static {
         SECURE_RANDOM.nextBytes(new byte[64]);
+    }
 
     private RandomUtil() {
     }
