@@ -31,7 +31,6 @@ public final class RandomUtil {
      * @return the generated password
      */
     public static String generatePassword() {
-        /*return RandomStringUtils.randomAlphanumeric(DEF_COUNT);*/
         return generateRandomAlphanumericString();
     }
 
@@ -41,7 +40,6 @@ public final class RandomUtil {
      * @return the generated activation key
      */
     public static String generateActivationKey() {
-        /*return RandomStringUtils.randomNumeric(DEF_COUNT);*/
         return generateRandomAlphanumericString();
     }
 
@@ -51,7 +49,6 @@ public final class RandomUtil {
     * @return the generated reset key
     */
     public static String generateResetKey() {
-        /*return RandomStringUtils.randomNumeric(DEF_COUNT);*/
         return generateRandomAlphanumericString();
     }
 }
